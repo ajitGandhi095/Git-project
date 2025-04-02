@@ -1,12 +1,9 @@
 # Define a Function for adding of two numbers
 
 def SumOp(a,b):
-    c=a+b
-    return c
+    return (a+b) 
 
-# main program
-print("Type of SumOp=", type(SumOp))
-
+# Function call
 #Get two values from keyboard
 a=float(input("Enter First value: "))
 b=float(input("Enter Second Value: "))
